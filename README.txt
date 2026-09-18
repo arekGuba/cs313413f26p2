@@ -39,34 +39,34 @@ TestPerformance.java
 	to get the running time in milliseconds and how the test running times were recorded.
 
 
-    REPS
+    REPS 100000
 	SIZE 10
-								  #1   #2    #3    #4   #5    #6 	... (as many tests as you ran)
-        testArrayListAddRemove:  0.019 0.02  0.02  0.02 0.019 0.02  ... (fill these in in ms)
-        testLinkedListAddRemove: 0.015 0.015 0.016 0.016 0.015 0.015
-		testArrayListAccess:     0.014 0.014 0.014 0.016 0.014 0.014
-        testLinkedListAccess:    0.008 0.008 0.008 0.009 0.008 0.009
+								  #1  #2  #3  #4  #5  #6 	... (as many tests as you ran)
+        testArrayListAddRemove:   19  20  20  20  19  20  ... (fill these in in ms)
+        testLinkedListAddRemove:  15  15  16  16  15  15
+		testArrayListAccess:      14  14  14  16  14  14
+        testLinkedListAccess:     8    8   8   9   8   9
 
 	SIZE 100
-								  #1   #2    #3    #4    #5    #6 	... (as many tests as you ran)
-        testArrayListAddRemove:  0.031 0.032 0.032 0.033 0.032 0.032  ... (fill these in in ms)
-        testLinkedListAddRemove: 0.015 0.015 0.015 0.014 0.015 0.016
-		testArrayListAccess:     0.014 0.018 0.015 0.015 0.014 0.013
-        testLinkedListAccess:    0.019 0.02  0.019 0.02  0.02  0.02
+								  #1  #2  #3  #4  #5  #6 	... (as many tests as you ran)
+        testArrayListAddRemove:   31  32  32  33  32  32  ... (fill these in in ms)
+        testLinkedListAddRemove:  15  15  15  14  15  16
+		testArrayListAccess:      14  18  15  15  14  13
+        testLinkedListAccess:     19  20  19  20  20  20
 
 	SIZE 1000
-								  #1   #2    #3    #4    #5    #6 	... (as many tests as you ran)
-        testArrayListAddRemove:  0.158 0.166 0.159 0.16  0.166 0.16  ... (fill these in in ms)
-        testLinkedListAddRemove: 0.015 0.015 0.015 0.015 0.015 0.015
-		testArrayListAccess:     0.014 0.013 0.015 0.014 0.016 0.015
-        testLinkedListAccess:    0.338 0.338 0.343 0.34  0.343 0.343
+								  #1   #2   #3   #4   #5   #6 	... (as many tests as you ran)
+        testArrayListAddRemove:   158  166  159  160  166  160  ... (fill these in in ms)
+        testLinkedListAddRemove:  15    15   15   15   15   15
+		testArrayListAccess:      14    13   15   14   16   15
+        testLinkedListAccess:     338  338  343  340  343  343
 
 	SIZE 10000
-								  #1   #2    #3    #4    #5    #6 	... (as many tests as you ran)
-        testArrayListAddRemove:  1.615 1.597 1.581 1.581 1.616 1.617  ... (fill these in in ms)
-        testLinkedListAddRemove: 0.016 0.016 0.015 0.016 0.016 0.016
-		testArrayListAccess:     0.018 0.016 0.016 0.016 0.014 0.016
-        testLinkedListAccess:    4.725 4.685 4.676 4.689 4.687 4.705
+								  #1   #2   #3   #4   #5   #6 	... (as many tests as you ran)
+        testArrayListAddRemove:   1615 1597 1581 1581 1616 1617  ... (fill these in in ms)
+        testLinkedListAddRemove:    16   16   15   16   16   16
+		testArrayListAccess:        18   16   16   16   14   16
+        testLinkedListAccess:     4725 4685 4676 4689 4687 4705
 
 	listAccess - which type of List is better to use, and why?
 
