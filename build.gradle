@@ -13,7 +13,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.+'
+    testImplementation platform('org.junit:junit-bom:5.+') // added: makes all JUnit libraries use matching versions
+    testImplementation 'org.junit.jupiter:junit-jupiter' // changed: removed ":5.+" because the line above now picks the version
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher' // added: the missing piece Gradle needs to start JUnit
 }
 
 test {
